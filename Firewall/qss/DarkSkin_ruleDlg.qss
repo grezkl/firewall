@@ -1,0 +1,61 @@
+QFrame#frame,QFrame#frame_2
+{
+	background-color: rgb(29, 33, 42);
+	border-radius:10px;
+}
+QTableWidget
+{
+	background-color: rgb(29, 33, 42);
+	color: rgb(255, 255, 255);
+	selection-background-color:#66CCFF;
+	selection-color:black;
+}
+QHeaderView::section
+{
+	background-color: rgb(29, 33, 42);
+	color: rgb(255, 255, 255);
+}
+QScrollBar:vertical
+{
+	border:0px solid grey;
+	width:8px;
+	margin:8px 0px 8px 0px;
+}
+QScrollBar::handle:vertical
+{
+	border:2px solid grey;
+	border-radius:2px;
+	min-height:20px;
+	width:8px;
+	background-color: rgb(29, 33, 42);
+}
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical
+{
+	height:8px;
+	subcontrol-origin:margin;
+}
+QScrollBar::up-arrow:vertical,QScrollBar::down-arrow:vertical
+{
+	height:8px;
+	border:0 0 0 0;
+	subcontrol-origin:margin;
+}
+QPushButton#addRuleBtn,QPushButton#addRuleBtn_2,QPushButton#blockAllBtn
+{
+	background-color:transparent;
+	border-radius:5px;
+	color:white;
+}
+QPushButton#addRuleBtn:hover,QPushButton#addRuleBtn_2:hover,QPushButton#blockAllBtn:hover
+{
+	background-color:rgb(31, 38, 57);
+	border-radius:5px;
+	border:2px solid rgb(172, 172, 172);
+}
+QPushButton#addRuleBtn:pressed,QPushButton#addRuleBtn_2:pressed,QPushButton#blockAllBtn:pressed
+{
+	background-color:rgb(31, 38, 57);
+	border-radius:5px;
+	border:2px solid rgb(255, 255, 255);
+    padding-top:1px;
+}

@@ -1,0 +1,31 @@
+QFrame#frame,QFrame#frame_2
+{
+	background-color: white;
+	border-radius:10px;
+}
+QPlainTextEdit#plainTextEdit
+{
+	color: black;
+	background-color: #e1e1e1;
+}
+QPushButton
+{
+	background-color:transparent;
+	border-radius:5px;
+	color:black;
+}
+QPushButton:hover
+{
+	background-color:#daedf0;
+	border-radius:5px;
+	border-color:blue;
+	border:2px solid blue;
+}
+QPushButton:pressed
+{
+	background-color:#daedf0;
+	border-radius:5px;
+	border-color:blue;
+	border:2px solid blue;
+    padding-top:1px;
+}

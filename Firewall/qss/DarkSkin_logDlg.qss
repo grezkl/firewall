@@ -1,0 +1,31 @@
+QFrame#frame,QFrame#frame_2
+{
+	background-color: rgb(29, 33, 42);
+	border-radius:10px;
+}
+QPlainTextEdit#plainTextEdit
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(54, 58, 67);
+}
+QPushButton
+{
+	background-color:transparent;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:hover
+{
+	background-color:rgb(31, 38, 57);
+	border-radius:5px;
+	border-color:blue;
+	border:2px solid rgb(172, 172, 172);
+}
+QPushButton:pressed
+{
+	background-color:rgb(31, 38, 57);
+	border-radius:5px;
+	border-color:blue;
+	border:2px solid rgb(255, 255, 255);
+    padding-top:1px;
+}

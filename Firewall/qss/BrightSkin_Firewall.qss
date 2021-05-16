@@ -1,0 +1,69 @@
+QWidget#Firewall
+{
+	/*background-color: white;*/
+}
+QPushButton#menuBtn,QPushButton#minBtn,QPushButton#exitBtn
+{
+	background-color:transparent;
+}
+QPushButton#menuBtn:hover,QPushButton#minBtn:hover,QPushButton#exitBtn:hover
+{
+	background-color:#daedf0;
+	border:1px solid blue;
+}
+QPushButton#menuBtn:pressed,QPushButton#minBtn:pressed,QPushButton#exitBtn:pressed
+{
+	background-color:#daedf0;
+	border:1px solid blue;
+	padding-left:1px;
+    padding-top:1px;
+}
+QPushButton#infoBtn,QPushButton#ruleBtn,QPushButton#logBtn
+{
+	background-color:transparent;
+	border-radius:5px;
+	color:black;
+}
+QPushButton#infoBtn:hover,QPushButton#ruleBtn:hover,QPushButton#logBtn:hover
+{
+	background-color:#daedf0;
+	border-radius:5px;
+	border:2px solid blue;
+}
+QPushButton#infoBtn:pressed,QPushButton#ruleBtn:pressed,QPushButton#logBtn:pressed
+{
+	background-color:#daedf0;
+	border-radius:5px;
+	border:2px solid blue;
+    padding-top:1px;
+}
+QFrame#frame_2
+{
+	background-color: #e1e1e1;
+	border-radius:10px;
+}
+QLabel#label_2,QLabel#label_3
+{
+	background-color: black;
+}
+QTabWidget#tabWidget:pane
+{
+	border:-1px;
+}
+QMenu#m_skinMenu
+{
+	background-color:white;
+	color:black;
+	border-color:gray;
+	border:1px solid gray;
+}
+QMenu#m_skinMenu::item
+{
+	padding:2px 20px;
+	margin:2px 2px;
+}
+QMenu#m_skinMenu::item:selected
+{
+	background-color:#daedf0;
+	color:black;
+}

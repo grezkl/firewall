@@ -1,0 +1,30 @@
+QFrame#frame,QFrame#frame_2,QFrame#frame_3,QFrame#frame_4,QFrame#frame_5
+{
+	background-color: white;
+	border-radius:10px;
+}
+QLabel#label_speed,QLabel#label_upArrow,QLabel#label_downArrow,QLabel#label_4,QLabel#label_cpu,QLabel#label_5,QLabel#label_memory
+{
+	color:black;
+	font: 20pt "微软雅黑";
+}
+QLabel#label_downSpeed,QLabel#label_upSpeed
+{
+	color:black;
+	font: 15pt "微软雅黑";
+}
+QLabel#label_11
+{
+	color:black;
+	font: 18pt "微软雅黑";
+}
+QLabel#label_12,QLabel#label_IP
+{
+	color:black;
+	font: 16pt "微软雅黑";
+}
+QPushButton#startBtn
+{
+	background-color:transparent;
+	border-radius:25px;
+}
