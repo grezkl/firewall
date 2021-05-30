@@ -43,7 +43,7 @@ BOOL WINAPI DllMain(
 	return TRUE;
 }
 
-bool filter(SOCKET s)
+bool filter(SOCKET s)//这里传入socket能干很多事，可以获取到很多东西
 {
 	bool isFirewallOpen = GetPrivateProfileIntA("Firewall", "Status", 0, "C:\\Windows\\FW_rule.ini");
 	if (!isFirewallOpen)
