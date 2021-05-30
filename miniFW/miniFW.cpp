@@ -49,6 +49,7 @@ bool filter(SOCKET s)
 	if (!isFirewallOpen)
 		return false;
 
+	//目前是针对应用程序路径拦截，规则在本地，这里可以将规则放在云服务器，每次都询问云端，但是这样不知道延迟怎么样，有待尝试
 	bool isBlockAll = GetPrivateProfileIntA("Firewall", "BlockAll", 0, "C:\\Windows\\FW_rule.ini");
 	bool isBlockThis = GetPrivateProfileIntA(exePath, "isBlock", 0, "C:\\Windows\\FW_rule.ini");
 
