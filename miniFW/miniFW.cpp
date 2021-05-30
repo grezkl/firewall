@@ -50,6 +50,7 @@ bool filter(SOCKET s)
 		return false;
 
 	//目前是针对应用程序路径拦截，规则在本地，这里可以将规则放在云服务器，每次都询问云端，但是这样不知道延迟怎么样，有待尝试
+	//目前用spi拦截感觉不够，后面可能需要做驱动拦截，才有各种协议的拦截和ipv6
 	bool isBlockAll = GetPrivateProfileIntA("Firewall", "BlockAll", 0, "C:\\Windows\\FW_rule.ini");
 	bool isBlockThis = GetPrivateProfileIntA(exePath, "isBlock", 0, "C:\\Windows\\FW_rule.ini");
 
