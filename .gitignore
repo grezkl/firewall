@@ -47,3 +47,7 @@ x64/
 *.db
 /Firewall/qmake/temp
 *.props
+
+# Server
+server/build/
+server/src/test/
